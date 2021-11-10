@@ -1,7 +1,6 @@
+- Software Design
 
-- Section One
-  - [Home](/)
-  - [Guide](./guide.md "The greatest guide in the world")
+  - [Design Patterns](./design-patterns/index.md "Design Patterns")
 
-- Section Two
-  - [Something else](./guide.md)
+- JavaScript
+  - [Fundamentals](./javascript/index.md "JavaScript")
