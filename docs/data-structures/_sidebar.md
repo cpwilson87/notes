@@ -14,3 +14,4 @@
   - [Linked Lists](./data-structures/linked-lists.md "Linked Lists")
   - [Doubly Linked Lists](./data-structures/doubly-linked-lists.md "Doubly Linked Lists")
   - [Hash Table](./data-structures/hash-tables.md "Hash tables")
+  - [Trees](./data-structures/trees.md "Trees")

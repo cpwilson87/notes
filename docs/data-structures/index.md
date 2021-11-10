@@ -18,5 +18,5 @@ Data structures enable us to:
 - Linked List
 - Doubly-Linked List
 - Hash Tables
-- Tries
 - Trees
+- Tries
