@@ -1,3 +1,3 @@
-# My Notes
+# Notes
 
-This is a collection of notes.
+A Collection of my notes on all things.
