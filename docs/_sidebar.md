@@ -5,4 +5,4 @@
   - [Design Patterns](./design-patterns/index.md "Design Patterns")
 
 - JavaScript
-  - [Fundamentals](./javascript/index.md "JavaScript")
+  - [React](./react/index.md "React")
