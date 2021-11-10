@@ -4,7 +4,7 @@ A design pattern is used to identify reusable solutions that can be applied to r
 
 Design patterns can be considered pre-made blueprints applied to solve a particular design problem. It is not a finished piece of code that can be directly applied to your program.
 
-## Structure of a Design Pattern
+## Structure of a Design Pattern <!-- {docsify-ignore} -->
 
 | Term       | Description                                                                                           |
 | ---------- | ----------------------------------------------------------------------------------------------------- |
@@ -13,7 +13,7 @@ Design patterns can be considered pre-made blueprints applied to solve a particu
 | Structure  | Set of diagrams of the classes and objects that depict parts of the pattern and how they are related. |
 | Code       | Example in any popular language for a better grasp of the idea.                                       |
 
-## Why use Design Patterns?
+## Why use Design Patterns? <!-- {docsify-ignore} -->
 
 The key benefits to using design patterns are:
 
@@ -23,7 +23,7 @@ The key benefits to using design patterns are:
 - Enables efficient communication
 - Improves your object-oriented skills
 
-## Categories of Design Pattern
+## Categories of Design Pattern <!-- {docsify-ignore} -->
 
 Based on intent, the JavaScript design patterns can be categorised into 3 major groups:
 
