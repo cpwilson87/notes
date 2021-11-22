@@ -5,4 +5,8 @@
   - [Design Patterns](./design-patterns/index.md "Design Patterns")
 
 - JavaScript
+
   - [React](./react/index.md "React")
+
+- Python
+  - [Setup](./python/setup.md "Python")
