@@ -1,6 +1,8 @@
 # Data Structures
 
-A Data structure is a way to store, organise, and manage information (or data) in a way that allows you the programmer to easily access or modify the values within them.
+A data structure is a particular way of organising data in a computer so that it can be used effectively.
+
+![Data Structures](../../public/dataStructures.webp)
 
 Data structures enable us to:
 
@@ -10,13 +12,26 @@ Data structures enable us to:
 - Handle multiple requests from users at once
 - Simplify and speed up data processing.
 
-## Types of Data Structures <!-- {docsify-ignore} -->
+## Types of Data Structures
 
-- Arrays
-- Stacks
-- Queues
-- Linked List
-- Doubly-Linked List
-- Hash Tables
+- Linear Data Structures
+
+  - Arrays
+  - Linked List
+  - Doubly-Linked List
+  - Stack
+  - Queue
+
 - Trees
-- Tries
+
+  - Binary Tree
+  - Binary Search Tree
+  - Heap
+  - Hash Tables
+
+- Graphs
+
+  - Graph
+  - Tries
+  - Segment Tree
+  - Suffix Tree
