@@ -18,9 +18,8 @@ A linear data structure has data elements arranged in a sequential manner and ea
 
 Examples of linear data structures are:
 
-- Arrays
-- Linked List
-- Doubly-Linked List
+- [Arrays](./arrays.md)
+- [Linked List](./linked-lists.md)
 - Stack
 - Queue
 
