@@ -1,21 +1,22 @@
 # Queues
 
-Queues are conceptually similar to stacks; both are sequential structures, but queues process elements in the order they were entered rather than the most recent element.
+Queues are an abstract data structure, somewhat similar to Stacks. Unlike stacks, a queue is open at both its ends. One end is always used to insert data (enqueue) and the other is used to remove data (dequeue). Queue follows a first-in-first-out methodology, i.e., the data item stored first will be accessed first.
 
-As a result, queues can be thought of as a FIFO (first in, first out) version of stacks. These are helpful as a buffer for requests, storing each request in the order it was received until it can be processed.
+A real-world example of queue can be a single-lane one-way road, where the vehicle enters first, exits first.
 
-For a visual, consider a single-lane tunnel: the first car to enter is the first car to exit. If other cars should wish to exit, but the first stops, all cars will have to wait for the first to exit before they can proceed.
+As with stacks, a queue can also be implemented using Arrays, Linked-lists, Pointers and Structures.
 
-- Advantages
-  - Dynamic size
-  - Orders data in the order it was received
-  - Low runtime
-- Disadvantages
-  - Can only retrieve the oldest element
+## Basic Operations
 
-Queues come with common methods:
+Queue operations may involve initializing or defining the queue, utilising it, and then completely erasing it from the memory. Here we shall try to understand the basic operations associated with queues:
 
-- enqueue - add data to queue
-- dequeue - remove data from the queue
-- peek - retrieves the value at the top of the queue without removing it
-- contains - searches through the queue returning a boolean
+- **Enqueue** - store an item to the queue.
+- **Dequeue** - remove an item from the queue.
+
+Few more functions are required to make the above-mentioned queue operation efficient. These are:
+
+- **Peek** - Gets the element at the front of the queue without removing it.
+- **isFull** - Checks if the queue is full.
+- **isEmpty** - Checks if the queue is empty.
+
+In queues, we always dequeue data, pointed by front pointer and while enqueing data in the queue we take help of rear pointer.

@@ -19,15 +19,15 @@ A linear data structure has data elements arranged in a sequential manner and ea
 Examples of linear data structures are:
 
 - [Arrays](./arrays.md)
-- [Linked List](./linked-lists.md)
-- Stack
-- Queue
+- [Linked Lists](./linked-lists.md)
+- [Stacks](./stacks.md)
+- [Queues](./queues.md)
 
-- Trees
+### Trees
 
-  - Binary Tree
-  - Binary Search Tree
-  - Heap
+- Binary Tree
+- Binary Search Tree
+- Heap
 
 - Hash
 
