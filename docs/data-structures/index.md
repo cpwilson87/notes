@@ -2,8 +2,6 @@
 
 A data structure is a particular way of organising data in a computer so that it can be used effectively.
 
-![Data Structures](../../public/dataStructures.webp)
-
 Data structures enable us to:
 
 - Manage and utilise large datasets
@@ -14,19 +12,26 @@ Data structures enable us to:
 
 ## Types of Data Structures
 
-- Linear Data Structures
+### Linear
 
-  - Arrays
-  - Linked List
-  - Doubly-Linked List
-  - Stack
-  - Queue
+A linear data structure has data elements arranged in a sequential manner and each member element is connected to its previous and next element. This connection helps to traverse a linear data structure in a single level and in single run. Such data structures are easy to implement as computer memory is also sequential.
+
+Examples of linear data structures are:
+
+- Arrays
+- Linked List
+- Doubly-Linked List
+- Stack
+- Queue
 
 - Trees
 
   - Binary Tree
   - Binary Search Tree
   - Heap
+
+- Hash
+
   - Hash Tables
 
 - Graphs
