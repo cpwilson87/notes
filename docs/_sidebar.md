@@ -7,6 +7,4 @@
 - JavaScript
 
   - [React](./react/index.md "React")
-
-- Python
-  - [Setup](./python/setup.md "Python")
+  - [Remix](./remix/index.md "Remix")
