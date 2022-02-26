@@ -7,24 +7,45 @@
     <meta name="description" content="Description" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
-    <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
+    <meta name="keywords" content="doc,docs,documentation" />
+    <meta name="description" content="A magical documentation generator." />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
     <link
       rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+      href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+      title="docsify-darklight-theme"
+      type="text/css"
     />
   </head>
   <body>
     <div id="app"></div>
     <script>
       window.$docsify = {
+        search: "auto",
         loadSidebar: true,
-        // subMaxLevel: 2,
+        coverpage: false,
         name: "CP Wilson Notes",
+        search: {
+          noData: {
+            "/": "No results!",
+          },
+          paths: "auto",
+          placeholder: {
+            "/": "Search",
+          },
+        },
       };
     </script>
-    <!-- Docsify v4 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script
+      src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
+      type="text/javascript"
+    ></script>
   </body>
 </html>
